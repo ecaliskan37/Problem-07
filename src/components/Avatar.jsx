@@ -14,11 +14,11 @@ function Avatar(props) {
           />
         </div>
         <div className="flex flex-col items-center justify-center ml-25">
-          <div className=" py-3 text-base font-medium text-gray-700 group-hover:text-gray-900">
+          <div className=" py-1 text-base font-medium text-gray-700 group-hover:text-gray-900">
             {props.name}
           </div>
           <div
-            className="py-5 text-sm text-right font-medium text-gray-500
+            className="py-20 text-sm text-right font-medium text-gray-500
            group-hover:text-gray-700"
           >
             {props.profileText}
